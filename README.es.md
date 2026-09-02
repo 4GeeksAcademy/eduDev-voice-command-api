@@ -120,7 +120,7 @@ Instala dependencias y ejecuta la API:
 
 ```bash
 uv sync
-uv run uvicorn src.main:app --reload
+uv run uvicorn src.app.main:app --reload
 ```
 
 ### Configuracion del frontend
